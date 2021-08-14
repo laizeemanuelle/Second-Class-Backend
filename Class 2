@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		 Console.WriteLine("Qual o seu nome?");
+            var nome = Console.ReadLine();
+
+            Console.WriteLine("Qual a sua idade?");
+            var idade = Console.ReadLine();
+
+            var bemvinda = "Olá " + nome + " seja bem-vindo! Sua idade é " + idade;
+            Console.WriteLine(bemvinda);
