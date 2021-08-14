@@ -1,0 +1,86 @@
+Consulta API CNPJ
+
+*ung
+www.receitaws.com.br/v1/cnpj/04302037000630
+
+*santander
+www.receitaws.com.br/v1/cnpj/02736455000103
+
+*facebook 
+www.receitaws.com.br/v1/cnpj/13347016000117
+
+*netflix
+www.receitaws.com.br/v1/cnpj/13590585000199
+
+Receita Bolo de Cenoura 
+
+Pre aqueça o forno a 180º
+Utilize uma forma retangular média
+Unte a forma com manteiga e farinha de trigo 
+Utilize um liquidificador, misture os ingredientes liquidos e a cenoura
+Utilize um recipiente fundo e então misture os ingredientes secos, exceto o fermento 
+Adicione a mistura liquida a seca, e por ultimo acrescente o fermento 
+Desepeje a mistura na forma untada anteriormente
+Coloque no forno para assar por aproximadamente 30 a 45 minutos 
+Seu Bolo estará pronto quando ao inserir um garfo no bolo, o mesmo saia sequinho! :) 
+
+Trocar uma Lâmpada
+
+1- Primeiramente, certifique-se  de que o interruptor esteja em modo off - desligado
+2- Providencie uma escada abaixo do ponto de luz
+3- Retire a lampada com defeito, rosqueando-a para o lado esquerdo 
+4- Coloque a nova lâmpada, rosqueando-a para o lado direito
+5- Teste a sua lâmpada acionando o interruptor para o modo on - ligado
+6- Prontinho, troca efetuada! :) 
+
+
+Somar Dois Numeros
+
+1- Insira um numero no campo A
+2- Insira um numero no campo B
+3- Some o numero inserido no campo A com o numero inserido no campo B 
+4- Apresente o resultado  
+
+Obter nota media Aluno
+
+1- Insira a nota Av1
+2- Insira a nota AV2
+3- Some as notas e divida por 2 
+4- Apresente o resultado 
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		 double nota1 = 2.5;
+		 double nota2 = 3;
+		 double nota3 = 1.5;
+		 double media = (nota1 + nota2 + nota3) / 3;
+		
+		Console.WriteLine("Sua média é " + media);
+		
+	}
+}
+Sua média é 2.33333333333333
+
+-------------------------------
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		 Console.WriteLine("Qual o seu nome?");
+            var nome = Console.ReadLine();
+
+            Console.WriteLine("Qual a sua idade?");
+            var idade = Console.ReadLine();
+
+            var bemvinda = "Olá " + nome + " seja bem-vindo! Sua idade é " + idade;
+            Console.WriteLine(bemvinda);
+
+
+
